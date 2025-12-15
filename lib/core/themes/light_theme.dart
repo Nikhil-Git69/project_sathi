@@ -16,8 +16,6 @@ final ThemeData lightTheme = ThemeData(
     secondaryContainer: Color(0xFFEADDFF),
     onSecondaryContainer: Color(0xFF32107A),
 
-    background: AppColors.backgroundLight,
-    onBackground: AppColors.textPrimary,
 
     surface: AppColors.surfaceLight,
     onSurface: AppColors.textPrimary,
@@ -26,7 +24,6 @@ final ThemeData lightTheme = ThemeData(
     onError: Colors.white,
   ),
 
-  scaffoldBackgroundColor: AppColors.backgroundLight,
 
   appBarTheme: AppBarTheme(
     backgroundColor: AppColors.surfaceLight,

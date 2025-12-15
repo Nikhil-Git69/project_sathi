@@ -17,8 +17,7 @@ final ThemeData darkTheme = ThemeData(
     secondaryContainer: Color(0xFF4C2E9B),
     onSecondaryContainer: Colors.white,
 
-    background: AppColors.backgroundDark,
-    onBackground: Colors.white,
+
 
     surface: AppColors.surfaceDark,
     onSurface: Color(0xFFE0E0E0),

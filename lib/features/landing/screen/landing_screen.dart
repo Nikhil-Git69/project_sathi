@@ -14,7 +14,7 @@ class _LandingScreenState extends State<LandingScreen> {
     final color = Theme.of(context).colorScheme;
 
     return Scaffold(
-      backgroundColor: color.background,
+      backgroundColor: color.surface,
       body: SafeArea(
         child: Padding(
           padding:  EdgeInsets.all(25),
@@ -42,7 +42,7 @@ class _LandingScreenState extends State<LandingScreen> {
                 style: Theme.of(context)
                     .textTheme
                     .bodyLarge
-                    ?.copyWith(color: color.onBackground.withOpacity(0.7)),
+                    ?.copyWith(color: color.surface.withValues(alpha: 0.7)),
               ),
                SizedBox(height: 30),
 

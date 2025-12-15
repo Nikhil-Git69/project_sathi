@@ -3,10 +3,14 @@ import 'package:project_sathi/features/splash/screen/splash_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:project_sathi/core/themes/theme_notifier.dart';
 import 'package:project_sathi/core/themes/light_theme.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:project_sathi/core/themes/dark_theme.dart';
 
 
-void main() {
+void main()  {
+  // WidgetsFlutterBinding.ensureInitialized();
+  // await Hive.initFlutter();
+
   runApp(
       MultiProvider(
         providers: [
