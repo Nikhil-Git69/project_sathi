@@ -9,9 +9,11 @@ class DevelopersNote extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title:  Text("About ProjectSathi"),
+        title:  Text("About ProjectSathi",style: TextStyle(color: Colors.white),),
         backgroundColor: color.primary,
         foregroundColor: color.secondary,
+        iconTheme: const IconThemeData(color: Colors.white),
+
 
       ),
       body: SingleChildScrollView(

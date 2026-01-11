@@ -1,5 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:project_sathi/features/home_nav/widgets/nav_item.dart';
 
 class FloatingNavBar extends StatelessWidget {
@@ -42,9 +43,10 @@ class FloatingNavBar extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                NavItem(icon: Icons.home, index: 0, currentIndex: currentIndex, onTap: onTap),
-                NavItem(icon: Icons.manage_accounts, index: 1, currentIndex: currentIndex, onTap: onTap),
-                NavItem(icon: Icons.settings, index: 2, currentIndex: currentIndex, onTap: onTap),
+                NavItem(icon: MdiIcons.homeOutline, index: 0, currentIndex: currentIndex, onTap: onTap),
+                NavItem(icon: MdiIcons.folderCogOutline, index: 1, currentIndex: currentIndex, onTap: onTap),
+                NavItem(icon: MdiIcons.bookOpenOutline, index: 2, currentIndex: currentIndex, onTap: onTap),
+                NavItem(icon: MdiIcons.cogOutline, index:3 , currentIndex: currentIndex, onTap: onTap),
               ],
             ),
           ),

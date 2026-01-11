@@ -27,19 +27,20 @@ final ThemeData lightTheme = ThemeData(
 
   appBarTheme: AppBarTheme(
     backgroundColor: AppColors.surfaceLight,
-    foregroundColor: AppColors.textPrimary,
     elevation: 0,
     centerTitle: true,
-    titleTextStyle:  TextStyle(
-      color: Colors.white,
+    titleTextStyle: const TextStyle(
+      color: AppColors.textPrimary,
       fontSize: 20,
       fontWeight: FontWeight.w600,
     ),
+    iconTheme: const IconThemeData(
+      color: AppColors.textPrimary,
+    ),
     scrolledUnderElevation: 0,
-    iconTheme: IconThemeData(color: Colors.white),
     surfaceTintColor: Colors.transparent,
-
   ),
+
 
   textTheme: const TextTheme(
     bodyLarge: TextStyle(color: AppColors.textPrimary),

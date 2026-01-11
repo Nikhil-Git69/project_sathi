@@ -19,10 +19,11 @@ class _ThemeScreenState extends State<ThemeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Theme"),
+        title: Text("Theme" , style: TextStyle(color: Colors.white),),
         backgroundColor: color.primary,
         foregroundColor: color.onPrimary,
         elevation: 0,
+        iconTheme: const IconThemeData(color: Colors.white),
         surfaceTintColor: Colors.transparent,
       ),
       body: Column(

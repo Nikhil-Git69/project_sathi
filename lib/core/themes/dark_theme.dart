@@ -28,20 +28,15 @@ final ThemeData darkTheme = ThemeData(
 
   scaffoldBackgroundColor: AppColors.backgroundDark,
 
-  appBarTheme: AppBarTheme(
-    backgroundColor: AppColors.surfaceDark,
+  appBarTheme: const AppBarTheme(
+    backgroundColor: AppColors.surfaceLight,
     foregroundColor: Colors.white,
     elevation: 0,
-    titleTextStyle:  TextStyle(
-      color: Colors.white,
-      fontSize: 20,
-      fontWeight: FontWeight.w600,
-    ),
     centerTitle: true,
     scrolledUnderElevation: 0,
-    iconTheme: IconThemeData(color: Colors.white),
     surfaceTintColor: Colors.transparent,
   ),
+
 
 
   textTheme: const TextTheme(
